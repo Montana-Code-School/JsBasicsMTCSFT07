@@ -1,11 +1,6 @@
-//var chai = require('chai');
-//var expect = chai.expect;
+var oneOrThree = function (arr){
+  return (arr.length === 2 && 
+    (arr.indexOf(1) !== -1 || arr.indexOf(3) !== -1));
+};
 
-//Write a JavaScript program to test if an array of integers of length 2 contains 1 or a 3
-
-// describe("", function(){
-//     it ('', function(){
-// 	//var val = test([1,2,3]);
-// 	//expect(val).to.equal(true);
-//     });
-// });
+module.exports = oneOrThree;
