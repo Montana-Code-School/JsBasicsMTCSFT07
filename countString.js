@@ -2,8 +2,6 @@
 
 //var chai = require('chai');
 //var expect = chai.expect;
-
-
 //describe("testing out function", function(){
 //     it ('will equal a bunch of stuff', function(){
 	
