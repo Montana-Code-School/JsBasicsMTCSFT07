@@ -8,7 +8,7 @@ var expect = chai.expect;
 //  JavaScript conditional statement to find the largest of five numbers. Display an alert box to show the result.
 
 
-describe.only("findLargest", function(){
+describe("findLargest", function(){
   it ('returns a number', function(){
     var val = findLargest(1,1,1,1,1);
     assert.typeOf(val, 'number');;
