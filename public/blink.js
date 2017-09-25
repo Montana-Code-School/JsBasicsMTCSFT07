@@ -11,8 +11,8 @@ var myFader = function(i, myClass) {
 
 
 $(function () {
-  myFader(3000, '.fade1');
+  /*myFader(3000, '.fade1');
   myFader(5000, '.fade2');
   myFader(2000, '.fade3');
-  myFader(1000, '.fade4');
+  myFader(1000, '.fade4');*/
 });
