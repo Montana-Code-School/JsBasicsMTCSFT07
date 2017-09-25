@@ -51,5 +51,10 @@ Exercise 5:
 Exercise 6:
 //Make text fade in and out using jquery. Use the setInterval javascript function and the 'hidden' css property. Use whatever html file and html tag you want.
 
+Exercise 7:
+//Write a sentence in a <p> tag. Using jQuery, attach a double-click event to the <p> element, whose callback drastically changes the meaning of the sentence.
+
+Exercise 8:
+//Write a javascript function that accepts an object and returns a count of the number of methods in that object.
 
 
