@@ -1,0 +1,21 @@
+/*change the following:
+//background color to green
+//default font family to comic sans
+//application title (chomp chomp) font family to times new roman
+//put a border around the 1st paragraph on the page*/
+
+.background {
+  background-color: green;
+}
+
+.times-font {
+  font-family: 'Times New Roman';
+}
+
+* {
+  font-family: 'Comic Sans MS';
+}
+
+.border {
+  border-style: solid;
+}
