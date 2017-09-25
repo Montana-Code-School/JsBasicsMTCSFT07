@@ -48,3 +48,8 @@ Exercise 5:
 //Make a javascript function that merges two arrays. The input will be two arrays and the output will be 1 array. Keep the //order of elements within each array, where the second array follows the first array. i.e.  
 //([1, 2, 3], [4, 5, 6]) => [1, 2, 3, 4, 5, 5]
 
+Exercise 6:
+//Make text fade in and out using jquery. Use the setInterval javascript function and the 'hidden' css property. Use whatever html file and html tag you want.
+
+
+
