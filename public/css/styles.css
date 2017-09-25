@@ -1,0 +1,34 @@
+body, html{
+  background-color:green;
+  font-family: Comic Sans MS;
+}
+
+.chomp{
+  font-family: Times New Roman
+}
+
+.para{
+  border: 5px solid magenta;
+}
+
+.tbl{
+  background-color: Whitesmoke;
+  border: 1px solid pink;
+}
+
+.tbl th{
+  background-color: pink;
+}
+
+#btn1{
+  background-color: pink;
+}
+
+#btn2{
+  background-color: black;
+  color: white;
+}
+
+button{
+  border: black;
+}
