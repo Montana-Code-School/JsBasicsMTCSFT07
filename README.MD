@@ -70,7 +70,26 @@ var plant = {
 
 
 //fill in the fetchName function to grab the properties kingdom and genus, and returns the string:
-//"the {commonName}, of kingdom {kingdom} and genus {genus}, is next to the closet behind us"
+//"the {commonName}, of kingdom {kingdom} and genus {genus}, is next to the closet behind us." Use TDD to test
+//and console log the string.
+
+Exercise 10:
+var bar = true;
+
+function toggle(){
+  if (bar){
+    console.log('yes');
+  } else {
+    console.log('no')
+  }
+}
+
+toggle();
+toggle();
+toggle();
+toggle();
+
+//Currently, the 4 toggle calls log "yes" "yes" "yes "yes." Edit the function toggle so that the 4 calls log this: "yes" "no" "yes" "no" 
 
 Exercise 10:
 //Set a background-image using the jQuery CSS property. The image should answer this question - if moby was a person, who //would he be?
