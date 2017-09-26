@@ -2,6 +2,9 @@
   "name": "exercises",
   "version": "1.0.0",
   "description": "",
+  "repository": {
+    "url": "https://github.com/Montana-Code-School/JsBasicsMTCSFT07.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha ."
@@ -9,8 +12,10 @@
   "author": "Mark Buckner <buckner.a.mark@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.15.5"
+  },
+  "devDependencies": {
     "chai": "^4.1.2",
-    "express": "^4.15.5",
     "mocha": "^3.5.3"
   }
 }
