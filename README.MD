@@ -74,6 +74,20 @@ var plant = {
 //and console log the string.
 
 Exercise 10:
+var loading = "loading....";
+
+//write code here
+
+setTimeout(function(){
+  var doneLoading = "Loading Complete!"
+  //write the code here
+
+}, 4000);
+
+//write a jquery or javascript function that displays the string "loading..." on an html page
+//and then replaces that string with "Loading Complete" after the timeout has finished. Use the code above.
+
+Exercise 11:
 var bar = true;
 
 function toggle(){
@@ -91,30 +105,30 @@ toggle();
 
 //Currently, the 4 toggle calls log "yes" "yes" "yes "yes." Edit the function toggle so that the 4 calls log this: "yes" "no" "yes" "no" 
 
-Exercise 10:
+Exercise 12:
 //Set a background-image using the jQuery CSS property. The image should answer this question - if moby was a person, who //would he be?
 
-Exercise 11:
+Exercise 13:
 //Create an html file that has a bootstrap theme from https://startbootstrap.com/template-categories/all/
 
-Exercise 12:
+Exercise 14:
 //You guys have used cdn's and have some familiarty with html. Let's do something interesting with this knowledge - follow //this tutorial - http://www.chartjs.org/docs/latest/getting-started/ to get the default chart into an html file. 
 //In the "data" object passed into the "new Chart(.." edit the "labels" and datasets.data to display some of information in //the chart found at //https://www.ncdc.noaa.gov/sotc/tornadoes/201708 (the chart titled: August Tornado Counts
 //*2017 count preliminary)
 
-Exercise 13:
+Exercise 15:
 //Add a CSS class using jQuery when you hit a button.
 
-Exercise 14: 
+Exercise 16: 
 //using jQuery, console.log the class of the clicked element
 
-Exercise 15:
+Exercise 17:
 //Using Javascript and TDD, write a function that sorts an array of strings in alphabetical order
 
-Exercise5 16
+Exercise5 18:
 //Write a javascript function that randomly returns an integer between 0 and 2. Using this return value and an html button, switch the background image between 3 images. 
 
-Exercise 17: 
+Exercise 19: 
 //Using jquery's get method, grab some data using one of google's data apis, using the url //https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699 . Use jquery or javascript to create an html div
 //and put the books title in inside the div. Use css to style the font size to be 20px;
 
