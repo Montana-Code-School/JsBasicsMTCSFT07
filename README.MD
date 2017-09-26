@@ -80,5 +80,8 @@ Exercise 14:
 Exercise 15:
 //Write a javascript function that randomly returns an integer between 0 and 2. Using this return value and an html button, switch the background image between 3 images. 
 
+Exercise 16: 
+//Using jquery's get method, grab some data using one of google's data apis, using the url //https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699 . Use jquery or javascript to create an html div
+//and put the books title in inside the div. Use css to style the font size to be 20px;
 
 
