@@ -5,7 +5,7 @@ var expect = chai.expect;
 var reverseStr = require("./reverse.js");
 
 //Write a JavaScript program to reverse a given string.
-describe.only("reverseStr()", function(){
+describe("reverseStr()", function(){
   it('returns a string', function(){
     var val = reverseStr('bacon');
     assert.typeOf(val, "string");

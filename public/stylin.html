@@ -2,12 +2,16 @@
 <html>
   <head>
     <title>Page Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
   </head>
   <body>
-    <h1> Chomp Chomp</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
-    <p>Tenetur quod quidem in voluptatem corporis dolorum dicta sit pariatur porro quaerat autem ipsam odit quam beatae tempora quibusdam illum! Modi velit odio nam nulla unde amet odit pariatur at!</p>
-    <table>
+    <h1 class="chomp"> Chomp Chomp</h1>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
+    <p id="changeme">Tenetur quod quidem in voluptatem corporis dolorum dicta sit pariatur porro quaerat autem ipsam odit quam beatae tempora quibusdam illum! Modi velit odio nam nulla unde amet odit pariatur at!</p>
+    <button onclick="changeColor()" id="btn1">Change Paragraph to Pink</button>
+    <button id="btn2">Change to White</button>
+    <table class="tbl">
       <tr>
         <th>Company</th>
         <th>Contact</th>
@@ -44,5 +48,7 @@
         <td>Italy</td>
       </tr>
     </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="stylin.js"></script>
   </body>
 </html>
