@@ -4,7 +4,7 @@ app.use(express.static('public'))
 
  /* serves main page */
  app.get("/", function(req, res) {
-    res.sendfile('index.htm')
+    res.sendfile('index.html')
  });
 
  var port = process.env.PORT || 5000;
