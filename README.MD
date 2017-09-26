@@ -58,29 +58,44 @@ Exercise 8:
 //Write a javascript function that accepts an object and returns a count of the number of methods in that object.
 
 Exercise 9:
-//Set a background-image using the jQuery CSS property. The image should answer this question - if moby was a person, who would he be?
+
+var plant = {
+  kingdom:"plantae",
+  genus:"Epipremnum",
+  commonName:"dumb house plant"
+  fetchName: function(){
+    //write code in here
+  }
+}
+
+
+//fill in the fetchName function to grab the properties kingdom and genus, and returns the string:
+//"the {commonName}, of kingdom {kingdom} and genus {genus}, is next to the closet behind us"
 
 Exercise 10:
-//Create an html file that has a bootstrap theme from https://startbootstrap.com/template-categories/all/
+//Set a background-image using the jQuery CSS property. The image should answer this question - if moby was a person, who //would he be?
 
 Exercise 11:
+//Create an html file that has a bootstrap theme from https://startbootstrap.com/template-categories/all/
+
+Exercise 12:
 //You guys have used cdn's and have some familiarty with html. Let's do something interesting with this knowledge - follow //this tutorial - http://www.chartjs.org/docs/latest/getting-started/ to get the default chart into an html file. 
 //In the "data" object passed into the "new Chart(.." edit the "labels" and datasets.data to display some of information in //the chart found at //https://www.ncdc.noaa.gov/sotc/tornadoes/201708 (the chart titled: August Tornado Counts
 //*2017 count preliminary)
 
-Exercise 12:
+Exercise 13:
 //Add a CSS class using jQuery when you hit a button.
 
-Exercise 13: 
+Exercise 14: 
 //using jQuery, console.log the class of the clicked element
 
-Exercise 14:
+Exercise 15:
 //Using Javascript and TDD, write a function that sorts an array of strings in alphabetical order
 
-Exercise 15:
+Exercise5 16
 //Write a javascript function that randomly returns an integer between 0 and 2. Using this return value and an html button, switch the background image between 3 images. 
 
-Exercise 16: 
+Exercise 17: 
 //Using jquery's get method, grab some data using one of google's data apis, using the url //https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699 . Use jquery or javascript to create an html div
 //and put the books title in inside the div. Use css to style the font size to be 20px;
 
