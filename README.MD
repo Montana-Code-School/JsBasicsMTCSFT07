@@ -78,7 +78,7 @@ Exercise 14:
 //Using Javascript and TDD, write a function that sorts an array of strings in alphabetical order
 
 Exercise 15:
-//Write a javascript function that randomly returns either the integers 0, 1, or 2. Using this return value and an html button, switch the background image between 3 images. 
+//Write a javascript function that randomly returns an integer between 0 and 2. Using this return value and an html button, switch the background image between 3 images. 
 
 
 
