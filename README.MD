@@ -143,7 +143,7 @@ Write a javascript function that randomly returns an integer between 0 and 2. Us
 ## Exercise 19: 
 Using jquery's get method, grab some data using one of google's data apis, using the url https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699 . Use jquery or javascript to create an html div and put the books title in inside the div. Use css to style the font size to be 20px.
 ## Exercise 20:
-In our name app, change the dob string in our name app to be "age" in the html. We'll still store dob in the database, but we need to display the age rather than dob. 
+In our name app, add the field "age" in the html, using the dob property in the database. We will not store the age property in the database.
 
 ## Exrecise 21:
 If you are part of brians group, use tdd to compliment his sweater.
@@ -152,9 +152,9 @@ If you are part of brians group, use tdd to compliment his sweater.
 In our name app, add the email field we built in the input into our schema and add it to the #nameList after the age.
 
 ## Exercise 23:
-In our name app, change the ul#nameList into an html table with 3 columns Name, Age, and Email. 
+In our name app, change the ul#nameList into an html table with 4 columns Name, DOB, Age, and Email. 
 
-## Exercise 22:
+## Exercise 24:
 Using an express server, get mongo and mongoose running with a mongo database server, like we did earlier today (Wed. Sept 27). The mongoose schema will be a movie star:
 ```javascript
   {
