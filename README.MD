@@ -167,4 +167,8 @@ Using an express server, get mongo and mongoose running with a mongo database se
   ```javascript
     var mongodbUri = 'mongodb://localhost/names';
 ```
+<<<<<<< HEAD
 located in your server.js file to a different url (something like mongod://localhost/celebrity )
+=======
+located in your server.js file to a different url (something like mongod://localhost/celebrity )
+>>>>>>> 471c3f9dd59910f2e1369e8d659983e0440e0d00
