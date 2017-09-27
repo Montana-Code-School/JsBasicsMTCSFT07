@@ -36,6 +36,7 @@ app.post("/names", function(req, res){
   var name = new Names();
   name.name = req.body.name;
   name.birthday = req.body.birthday;
+  name.email = req.body.email;
   name.save(function(err, nameReturned){
     res.json('name received' + nameReturned);
   });
