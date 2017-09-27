@@ -2,6 +2,9 @@
   "name": "exercises",
   "version": "1.0.0",
   "description": "",
+  "repository": {
+    "url": "https://github.com/Montana-Code-School/JsBasicsMTCSFT07.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha ."
