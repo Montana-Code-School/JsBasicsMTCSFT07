@@ -142,3 +142,18 @@ Write a javascript function that randomly returns an integer between 0 and 2. Us
 
 ## Exercise 19: 
 Using jquery's get method, grab some data using one of google's data apis, using the url https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699 . Use jquery or javascript to create an html div and put the books title in inside the div. Use css to style the font size to be 20px.
+
+## Exercise 20:
+Using an express server, get mongo and mongoose running with a mongo database server, like we did earlier today (Wed. Sept 27). The mongoose schema will be a movie star:
+```javascript
+  {
+    name: {name}
+    dob: {dob}
+    starredIn:{a movie he/she acted in}
+   }
+  ```
+  Build a webpage that has his/her image as the background and display the following information: "{Name}, who's {age} starred in: {a movie he/she acted in}" in big letters at the top. Feel free to use jquery. Put a bootstrap nav bar at the top. Some notes: You'll need to make a new database - all you need to do is change the 
+  ```javascript
+    var mongodbUri = 'mongodb://localhost/names';
+```
+located in your server.js file to a different url (something like mongod://localhost/celebrity )
