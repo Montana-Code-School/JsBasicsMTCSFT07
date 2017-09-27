@@ -9,8 +9,13 @@
   "author": "Mark Buckner <buckner.a.mark@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "chai": "^4.1.2",
     "express": "^4.15.5",
-    "mocha": "^3.5.3"
+    "firebase-admin": "^5.2.1",
+    "mocha": "^3.5.3",
+    "mongodb": "^2.2.31",
+    "mongodb-uri": "^0.9.7",
+    "mongoose": "^4.11.13"
   }
 }
