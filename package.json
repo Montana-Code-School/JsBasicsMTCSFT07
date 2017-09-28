@@ -2,6 +2,9 @@
   "name": "exercises",
   "version": "1.0.0",
   "description": "",
+  "repository": {
+    "url": "https://github.com/Montana-Code-School/JsBasicsMTCSFT07.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha ."
@@ -11,10 +14,9 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "chai": "^4.1.2",
+    "eslint": "^4.7.2",
     "express": "^4.15.5",
-    "firebase-admin": "^5.2.1",
     "mocha": "^3.5.3",
-    "mongodb": "^2.2.31",
     "mongodb-uri": "^0.9.7",
     "mongoose": "^4.11.13"
   }
