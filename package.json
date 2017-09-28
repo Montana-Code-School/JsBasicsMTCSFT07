@@ -16,13 +16,7 @@
     "chai": "^4.1.2",
     "eslint": "^4.7.2",
     "express": "^4.15.5",
-<<<<<<< HEAD
     "mocha": "^3.5.3",
-=======
-    "firebase-admin": "^5.2.1",
-    "mocha": "^3.5.3",
-    "mongodb": "^2.2.31",
->>>>>>> 471c3f9dd59910f2e1369e8d659983e0440e0d00
     "mongodb-uri": "^0.9.7",
     "mongoose": "^4.11.13"
   }
