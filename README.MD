@@ -156,15 +156,16 @@ In our name app, change the ul#nameList into an html table with 4 columns Name, 
 
 ## Exercise 24:
 Using an express server, get mongo and mongoose running with a mongo database server, like we did earlier today (Wed. Sept 27). The mongoose schema will be a movie star:
-```javascript
-  {
-    name: {name}
-    dob: {dob}
-    starredIn:{a movie he/she acted in}
-   }
-  ```
-  Build a webpage that has his/her image as the background and display the following information: "{Name}, who's {age} starred in: {a movie he/she acted in}" in big letters at the top. Feel free to use jquery. Put a bootstrap nav bar at the top. Some notes: You'll need to make a new database - all you need to do is change the 
-  ```javascript
-    var mongodbUri = 'mongodb://localhost/names';
-```
-located in your server.js file to a different url (something like mongod://localhost/celebrity )
+
+## Exercise 25:
+
+There's a raging debate about what logic goes into the server 
+and what goes into the client. In the last exercise (fetch.js), we grabbed
+the image_url from the giphy api in node and yesterday we did it in 
+meteoriteData.js, which is on the client (executed in the browser). 
+
+
+fork the basic express server repo. In server.js, grab the node-fetch
+library from npm. Use it like you did in fetch.js to grab an gif image url. Create a new app.get
+that responds with the image url you just retrieved. In your index.html file,
+use the fetch or jquery api to call your get, retrieve the image url, and display the gif on your webpage. woohoo1
