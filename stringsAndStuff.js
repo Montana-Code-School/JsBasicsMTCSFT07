@@ -19,8 +19,8 @@ countLetters("a");
 //verify that it works using console logs. If that doesn't make sense, try to figure it out!
 
 //Finally, add a console log in countLetters() that logs "We got a capital letter in this word, better get out the pitchforks
-because I hate capital letters and Mark is a moron who thinks he can get away with putting capital letters in words that my 
-function has to deal with"
+//because I hate capital letters and Mark is a moron who thinks he can get away with putting capital letters in words that my 
+//function has to deal with"
 
 
 
