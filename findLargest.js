@@ -1,1 +1,1 @@
-//UsingTDD, write a JavaScript conditional statement to find the largest of three numbers of an array of numbers.
+//UsingTDD, write a JavaScript conditional statement to find the largest of five numbers in an array of integers.
